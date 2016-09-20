@@ -1,0 +1,14 @@
+#image-one {
+  background: url('../images/pexels-photo-29390.jpg') no-repeat;
+  width: 640px;
+  height: 480px;
+}
+
+
+.blur-over:hover {
+  filter: blur(4px);
+}
+
+.blur-over {
+  transition: filter 2s;
+}
