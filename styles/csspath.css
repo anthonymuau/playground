@@ -1,0 +1,16 @@
+#image-one {
+  background: url('../images/pexels-photo-29390.jpg') no-repeat;
+  width: 640px;
+  height: 480px;
+}
+
+.path-test {
+  -webkit-clip-path: circle(50px at 50% 50px);
+  clip-path: circle(50px at 50% 50px);
+  transition: all 2s;
+}
+
+.path-test:hover {
+  -webkit-clip-path: circle(100px at 10% 100px);
+  clip-path: circle(100px at 10% 100px);
+}
