@@ -4,3 +4,11 @@ body {
 	color: #000;
 }
 
+h1 {
+	font-weight: 200;
+	font-size:  73px;
+	background: -webkit-linear-gradient(top, #a90329 0%,#8f0222 44%,#6d0019 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	text-align: center;
+}
